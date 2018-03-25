@@ -16,7 +16,7 @@
         使用jaxws:server和jaxws:endpoint可以发布服务
         WebService地址=Tomcat地址值+CXF Servlet的路径+ /weather
     -->
-    <jaxws:server address="/weather" serviceClass="com.Higgin.ws.service.WeatherInterface">
+    <jaxws:server address="/weather" serviceClass="com.zyc.server.WeatherInterface">
         <jaxws:serviceBean>
             <ref bean="weatherInterface"/>
         </jaxws:serviceBean>
